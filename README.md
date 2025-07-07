@@ -1,4 +1,4 @@
-#  Motivational Video Recommendation Engine
+#   Video Recommendation Engine
 
 A personalized recommendation system for motivational videos inspired by the Empowerverse App. Built using **FastAPI**, this engine delivers tailored content based on user engagement, handles **cold-start** scenarios, integrates with the **Socialverse API**, and uses **deep learning** (including **GNN**) to rank content effectively.
 
