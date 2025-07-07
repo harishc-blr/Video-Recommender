@@ -76,8 +76,9 @@ All endpoints return JSON responses following:
     }
   ]
 }
- GET /feed?username={username}
+
+GET /feed?username={username}
 Returns personalized recommendations based on user's past interactions.
- GET /feed?username={username}&project_code={project_code}
+GET /feed?username={username}&project_code={project_code}
 Returns filtered recommendations using both user preferences and selected project category.
 
