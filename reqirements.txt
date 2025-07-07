@@ -1,0 +1,8 @@
+# requirements.txt
+fastapi
+uvicorn
+sqlalchemy
+asyncpg
+httpx
+alembic
+pydantic
