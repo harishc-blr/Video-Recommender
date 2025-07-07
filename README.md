@@ -21,27 +21,35 @@ A personalized recommendation system for motivational videos inspired by the Emp
 
 video-recommendation-engine/
 ├── app/
-│ ├── main.py # FastAPI entrypoint
-│ ├── api/routes/feed.py # API endpoints
-│ ├── services/
-│ │ ├── recommender.py # Recommendation logic
-│ │ └── data_fetcher.py # Socialverse API integration
-│ ├── models/
-│ │ ├── database.py # SQLAlchemy models
-│ │ └── schemas.py # Response models
-│ ├── ml/
-│ │ ├── gnn_model.py # GNN model definition
-│ │ └── embeddings.py # Embedding logic
-│ └── config/settings.py # Environment config
-├── docs/
-│ ├── recommendation_system.md # Technical design doc
-│ └── setup.md # Setup and install instructions
-├── postman_collection.json # Testable endpoints
-├── requirements.txt # Python dependencies
-├── .env # Environment secrets
-├── alembic.ini # DB migrations config
-├── README.md # You are here
-└── tests/ # Unit tests
+│   ├── init.py
+│   ├── api/
+│   │   ├── init.py
+│   │   └── routes/
+│   │       ├── init.py
+│   │       ├── data.py
+│   │       ├── feed.py
+│   ├── config/
+│   │   ├── init.py
+│   │   └── settings.py
+│   ├── models/
+│   │   ├── init.py
+│   │   └── database.py
+│   ├── services/
+│   │   ├── init.py
+│   │   ├── cache.py
+│   │   ├── data_fetcher.py
+│   │   └── recommender.py
+│   ├── ml/
+│   │   ├── init.py
+│   │   └── gnn_model.py
+│   └── main.py
+├── alembic/
+│   ├── env.py
+│   └── versions/
+│       └── 2025_07_07_create_tables.py
+├── .env
+├── requirements.txt
+└── README.md
 
 
 ---
